@@ -1,0 +1,30 @@
+{
+  "name": "github-integration-test-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameskdoherty/integration-test-repo-2.git"
+  },
+  "author": "jameskdoherty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameskdoherty/integration-test-repo-2/issues"
+  },
+  "homepage": "https://github.com/jameskdoherty/integration-test-repo-2#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
